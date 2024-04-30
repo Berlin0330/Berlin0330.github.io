@@ -1,0 +1,160 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catálogo de Muebles</title>
+  <style>
+    body {
+      font-family: 'Candara', sans-serif;
+      text-align: center;
+      background-color: #ffefd5; 
+    }
+    header {
+      padding: 20px;
+      background-color: #eedada; 
+      color: #333;
+    }
+    h1 {
+      margin: 0;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+    nav ul {
+      list-style: none;
+      padding: 0;
+    }
+    nav li {
+      display: inline-block;
+      margin-right: 20px;
+    }
+    nav a, footer a {
+      text-decoration: none;
+      color: #ffa07a; 
+    }
+    nav a:hover, footer a:hover {
+      color: #ff4500; 
+    }
+    footer {
+      padding: 20px;
+      background-color: #eedada; 
+      color: #333;
+    }
+   
+    .categoria {
+      margin: 20px;
+      padding: 10px;
+      background-color: #fff;
+      border: 1px solid #333;
+      border-radius: 5px;
+    }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Folding Fur</h1>
+    <img src="imagenes\logo.jpg" alt="Logo de la Empresa" height="450px" width="200px">
+    <b><p><strong>Recuerda, con folding fur</strong> "Mueblete con comodidad".</p></b>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="mision.html">Misión</a></li>
+      <li><a href="vision.html">Visión</a></li>
+      <li><a href="valores.html">Valores</a></li>
+    </ul>
+  </nav>
+  
+  <h2>Catalogo</h2>
+
+  <!-- Categorías de muebles -->
+  <div class="categorias">
+    <!-- Categoría Mesas de Noche -->
+    <div class="categoria">
+      <h2>Mesas de Noche</h2>
+      <div class="dropdown">
+        <button class="dropbtn">Modelos</button>
+        <div class="dropdown-content">
+          <a href="mesas.html">Estrecha</a>
+          <a href="mesas.html">Flotante</a>
+          <a href="mesas.html">Con Cajones</a>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Categoría Escritorios -->
+    <div class="categoria">
+      <h2>Escritorios</h2>
+      <div class="dropdown">
+        <button class="dropbtn">Modelos</button>
+        <div class="dropdown-content">
+          <a href="escritorios.html">ágil</a>
+          <a href="escritorios.html">space</a>
+          <a href="escritorios.html">skand</a>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Categoría Cajoneras -->
+    <div class="categoria">
+      <h2>Cajoneras</h2>
+      <div class="dropdown">
+        <button class="dropbtn">Modelos</button>
+        <div class="dropdown-content">
+          <a href="cajoneras.html">gondola</a>
+          <a href="cajoneras.html">cerrado</a>
+          <a href="cajoneras.html">canoe</a>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Categoría Estantes -->
+    <div class="categoria">
+      <h2>Estantes</h2>
+      <div class="dropdown">
+        <button class="dropbtn">Modelos</button>
+        <div class="dropdown-content">
+          <a href="estantes.html">de pared</a>
+          <a href="estantes.html">Flotante</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>Contáctanos:</p>
+    <p>
+      <a href="mailto:FoldingFur@gmail.com">FoldingFur@gmail.com</a>   | 
+      <a href="tel:+525574994622">Teléfono: +52 5574 9946 22</a></p>
+      <p>
+    <a href="https://www.google.com/maps/place/Tercera+Avenida+40,+Evolucion,+57700+Cdad.+Nezahualcóyotl,+Méx.">Encuéntranos en Google Maps</a></p>
+
+  </footer>
+</body>
+</html>

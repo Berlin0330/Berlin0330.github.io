@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catálogo - Mesas de Noche</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .container {
+      width: 80%;
+      max-width: 1200px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      border-radius: 8px;
+    }
+
+    h2 {
+      text-align: center;
+      color: #333;
+      font-size: 2.2em;
+      margin-bottom: 30px;
+    }
+
+    .categoria {
+      margin-bottom: 40px;
+    }
+
+    .modelo {
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      padding: 15px;
+      margin-bottom: 20px;
+      background-color: #fff;
+      transition: transform 0.3s ease;
+    }
+
+    .modelo:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    }
+
+    .modelo h3 {
+      color: #555;
+      font-size: 1.8em;
+      margin-bottom: 15px;
+    }
+
+    .modelo img {
+      width: 100%;
+      height: auto;
+      border-radius: 5px;
+      margin-bottom: 15px;
+    }
+
+    .modelo p {
+      color: #666;
+      line-height: 1.6;
+      margin-bottom: 10px;
+    }
+
+    .precio {
+      font-weight: bold;
+      color: #333;
+      font-size: 1.4em;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Mesas de Noche</h2>
+    <div class="categoria">
+      <!-- Modelo Estrecha -->
+      <div class="modelo">
+        <h3>Estrecha</h3>
+        <img src="imagenes\estrechas.jpg" alt="Mesa de Noche Estrecha" style="width:70%;height:auto;">
+        <p>Descripción del modelo Estrecha. Un diseño compacto y elegante para espacios reducidos.</p>
+        <p class="precio">Precio: $99.99</p>
+      </div>
+      
+      <!-- Modelo Flotante -->
+      <div class="modelo">
+        <h3>Flotante</h3>
+        <img src="imagenes\flotantes.jpg" alt="Mesa de Noche Flotante" style="width:70%;height:auto;">
+        <p>Descripción del modelo Flotante. Modernidad y minimalismo que flota en tu habitación.<p>
+        <p class="precio">Precio: $129.99</p>
+      </div>
+      
+      <!-- Modelo Con Cajones -->
+      <div class="modelo">
+        <h3>Con Cajones</h3>
+        <img src="imagenes\concajones.jpg" alt="Mesa de Noche Con Cajones" style="width:70%;height:auto;">
+        <p>Descripción del modelo Con Cajones. Espacio y funcionalidad con un estilo clásico.</p>
+        <p class="precio">Precio: $149.99</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+

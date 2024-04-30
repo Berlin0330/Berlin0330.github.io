@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catálogo - Estantes</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .container {
+      width: 80%;
+      max-width: 1200px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      border-radius: 8px;
+    }
+
+    h2 {
+      text-align: center;
+      color: #333;
+      font-size: 2.2em;
+      margin-bottom: 30px;
+    }
+
+    .categoria {
+      margin-bottom: 40px;
+    }
+
+    .modelo {
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      padding: 15px;
+      margin-bottom: 20px;
+      background-color: #fff;
+      transition: transform 0.3s ease;
+    }
+
+    .modelo:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    }
+
+    .modelo h3 {
+      color: #555;
+      font-size: 1.8em;
+      margin-bottom: 15px;
+    }
+
+    .modelo img {
+      width: 100%;
+      height: auto;
+      border-radius: 5px;
+      margin-bottom: 15px;
+    }
+
+    .modelo p {
+      color: #666;
+      line-height: 1.6;
+      margin-bottom: 10px;
+    }
+
+    .precio {
+      font-weight: bold;
+      color: #333;
+      font-size: 1.4em;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Estantes</h2>
+    <div class="categoria">
+      <!-- Modelo de Pared -->
+      <div class="modelo">
+        <h3>De Pared</h3>
+        <img src="imagenes\pared.jpg" alt="Estante de Pared" style="width:50%;height:auto;">
+        <p>Descripción del modelo De Pared. Maximiza tu espacio con estilo y funcionalidad.</p>
+        <p class="precio">Precio: $89.99</p>
+      </div>
+      
+      <!-- Modelo Flotante -->
+      <div class="modelo">
+        <h3>Flotante</h3>
+        <img src="imagenes\flotante.jpg" alt="Estante Flotante" style="width:50%;height:auto;">
+        <p>Descripción del modelo Flotante. Diseño moderno que parece desafiar la gravedad.</p>
+        <p class="precio">Precio: $79.99</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
